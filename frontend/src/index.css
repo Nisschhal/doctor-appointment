@@ -7,3 +7,9 @@
 .active hr {
   @apply block;
 }
+
+// add auto grid template with minmax(200, 1fr) repeat
+.grid-auto-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
